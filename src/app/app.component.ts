@@ -11,7 +11,7 @@ export class AppComponent {
     fname:new FormControl('',[Validators.required]),
     lname:new FormControl(''),
     mobNo:new FormControl('',[Validators.required]),
-    email:new FormControl('',[Validators.required,Validators.email]),
+    email:new FormControl('',[Validators.required]),
   })
   userForm(){
     console.warn(this.newForm.value);
